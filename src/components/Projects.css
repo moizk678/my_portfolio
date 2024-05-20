@@ -1,0 +1,33 @@
+/* src/components/Projects.css */
+.projects-section {
+  padding: 60px 0;
+}
+
+.projects-section h2 {
+  margin-bottom: 40px;
+}
+
+.projects-section .card {
+  margin-bottom: 20px;
+  background-color: whitesmoke; /* Purple background color */
+  color: black; /* White text color for better contrast */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Slight rounding for better appearance */
+}
+
+.projects-section .card-title {
+  color: black; /* Ensure the title text is white */
+}
+
+.projects-section .card-text {
+  color: black; /* Light purple text color */
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the entire image is visible */
+  max-height: 400px; /* Optional: Set a maximum height */
+  border-top-left-radius: 10px; /* Match card border radius */
+  border-top-right-radius: 10px; /* Match card border radius */
+}

@@ -1,0 +1,15 @@
+/* src/components/Skills.css */
+.skills-section {
+  padding: 60px 0;
+}
+
+.skills-section h2 {
+  margin-bottom: 40px;
+}
+
+.skill-badge {
+  background-color: #8e44ad !important; /* Purple color for the badge with !important */
+  color: white !important;
+  font-size: 1em;
+  margin-left: 10px;
+}

@@ -1,0 +1,52 @@
+/* src/components/Contact.css */
+.contact-section {
+  padding: 60px 0;
+  background-color: #f3e5f5; /* Light purple background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 600px; /* Set a max-width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.contact-section h2 {
+  margin-bottom: 40px;
+  font-family: 'Noteworthy', 'Comic Sans MS', cursive; /* Notepad-like font */
+  color: #4a148c; /* Dark purple color */
+}
+
+.contact-section .form-control {
+  background-color: #fff; /* White background for inputs */
+  border: 1px solid #4a148c; /* Dark purple border */
+  border-radius: 5px; /* Slight rounding for inputs */
+}
+
+.contact-section .form-label {
+  color: #4a148c; /* Dark purple label color */
+}
+
+.contact-section .btn-primary {
+  background-color: #7b1fa2; /* Button color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded button */
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #6a1b9a; /* Darker button color on hover */
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links .social-icon {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.social-links .social-icon i {
+  color: #7b1fa2; /* Dark purple color for icons */
+}
+
+.social-links .social-icon i:hover {
+  color: #6a1b9a; /* Darker color on hover */
+}
